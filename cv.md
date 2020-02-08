@@ -21,4 +21,6 @@ public class Main {
 ### Experience
 3 years of Java development of telecom and banking systems. Microservice architecture. 
 ### Education
-Belarussian State University, Faculty of Applied Mathematics and Informatics
+Belarusian State University, Faculty of Applied Mathematics and Informatics
+### English
+Intermediate
