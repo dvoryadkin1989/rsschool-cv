@@ -1,10 +1,9 @@
 # Sergey Dvoryadkin
+
 ### Contact Info
-|       |                          |
-|-------|--------------------------|
-| Email | dvoryadkin1989@gmail.com |
-| Skype | dvoryadkin1989           |
-|       |                          |
+* **Email:** dvoryadkin1989@gmail.com
+* **Skype:** dvoryadkin1989
+
 ### Skills
 * **Backed:** Java, Spring (-Boot, -Web, -Data), Hibernate
 * **Frontend:** HTML, CSS, Javascript, React
@@ -19,8 +18,10 @@ public class Main {
 }
 ```
 ### Experience
-3 years of Java development of telecom and banking systems. Microservice architecture. 
+3 years of Java development of telecom and banking systems. Microservice architecture.
+ 
 ### Education
 Belarusian State University, Faculty of Applied Mathematics and Informatics
+
 ### English
 Intermediate
