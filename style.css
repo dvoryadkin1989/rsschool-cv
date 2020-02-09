@@ -1,24 +1,25 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   display: grid;
   grid-template-columns: 1fr 900px 1fr;
-  background-color: antiquewhite;
+  margin: 0;
+  background-color: #5d5c61;
 }
 
 .container {
   position: relative;
   grid-column: 2;
   min-height: 100vh;
-  background-color: gray;
+  background-color: #80a0b0;
+  font-size: 1.1em;
 }
 
 /* Navigation bar*/
 nav {
   background-color: black;
+}
+
+nav ul {
+  margin-top: 0;
 }
 
 nav li {
@@ -39,11 +40,15 @@ nav a:hover {
 }
 
 nav a:visited {
-  color: antiquewhite;
+  color: #faebd7;
 }
 
 nav a:hover {
-  color: antiquewhite;
+  color: #faebd7;
+}
+
+section {
+  margin: 0 10px;
 }
 
 /* Personal info */
@@ -51,29 +56,46 @@ nav a:hover {
   float: left;
   width: 200px;
   height: 240px;
+  margin: 15px 15px 15px 0;
 }
 
-table {
+.contact-info {
   text-align: left;
+}
+
+.contact-info th {
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: small;
 }
 
 .summary {
   clear: both;
 }
 
+#skills ul {
+  list-style-type: none;
+  line-height: 1.5em;
+}
+
 h1 {
   display: inline-block;
 }
 
-h1, h3 {
+h1, h3, ul strong, .contact-info th {
   font-family: "Verdana", "Arial", sans-serif;
+  color: rgb(30, 30, 30);
+  /*color: #5d5c61;*/
+  /*color: #557a95;*/
 }
 
 footer {
-  display: block;
   position: absolute;
+  margin: 0;
   width: 100%;
   bottom: 0;
   left: 0;
-  background-color: red;
+  color: #faebd7;
+  background-color: black;
+  text-align: center;
+  font-style: italic;
 }
