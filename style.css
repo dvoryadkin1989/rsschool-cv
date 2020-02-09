@@ -9,8 +9,8 @@ body {
   position: relative;
   grid-column: 2;
   min-height: 100vh;
-  background-color: #99B2BF;
   font-size: 1.1em;
+  background-color: #99B2BF;
 }
 
 /* Navigation bar*/
@@ -73,31 +73,34 @@ section {
 }
 
 #skills ul {
-  list-style-type: none;
   line-height: 1.5em;
+  list-style-type: none;
 }
 
 h1 {
   display: inline-block;
   margin-top: 0;
   border-bottom: solid;
-  text-transform: uppercase;
   word-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
-h1, h3, ul strong, .contact-info th {
+h1,
+h3,
+ul strong,
+.contact-info th {
   font-family: "Verdana", "Arial", sans-serif;
   color: #303030;
 }
 
 footer {
   position: absolute;
-  margin: 0;
-  width: 100%;
   bottom: 0;
   left: 0;
+  margin: 0;
+  width: 100%;
+  font-style: italic;
+  text-align: center;
   color: #faebd7;
   background-color: #303030;
-  text-align: center;
-  font-style: italic;
 }
