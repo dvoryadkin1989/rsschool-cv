@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 900px 1fr;
+  background-color: antiquewhite;
+}
+
+.container {
+  position: relative;
+  grid-column: 2;
+  min-height: 100vh;
+  background-color: gray;
+}
+
+/* Navigation bar*/
+nav {
+  background-color: black;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inherit;
+  padding: 10px;
+  font-family: "Verdana", "Arial", sans-serif;
+  font-weight: bold;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgb(30, 30, 30);
+}
+
+nav a:visited {
+  color: antiquewhite;
+}
+
+nav a:hover {
+  color: antiquewhite;
+}
+
+/* Personal info */
+#personal-info img {
+  float: left;
+  width: 200px;
+  height: 240px;
+}
+
+table {
+  text-align: left;
+}
+
+.summary {
+  clear: both;
+}
+
+h1 {
+  display: inline-block;
+}
+
+h1, h3 {
+  font-family: "Verdana", "Arial", sans-serif;
+}
+
+footer {
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+}
