@@ -1,6 +1,6 @@
 body {
   display: grid;
-  grid-template-columns: 1fr 900px 1fr;
+  grid-template-columns: 1fr 800px 1fr;
   margin: 0;
   background-color: #5d5c61;
 }
@@ -9,13 +9,13 @@ body {
   position: relative;
   grid-column: 2;
   min-height: 100vh;
-  background-color: #80a0b0;
+  background-color: #99B2BF;
   font-size: 1.1em;
 }
 
 /* Navigation bar*/
 nav {
-  background-color: black;
+  background-color: #303030;
 }
 
 nav ul {
@@ -36,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgb(30, 30, 30);
+  background-color: #303030;
 }
 
 nav a:visited {
@@ -56,7 +56,7 @@ section {
   float: left;
   width: 200px;
   height: 240px;
-  margin: 15px 15px 15px 0;
+  margin: 0 15px 15px 0;
 }
 
 .contact-info {
@@ -79,13 +79,15 @@ section {
 
 h1 {
   display: inline-block;
+  margin-top: 0;
+  border-bottom: solid;
+  text-transform: uppercase;
+  word-spacing: 0.3em;
 }
 
 h1, h3, ul strong, .contact-info th {
   font-family: "Verdana", "Arial", sans-serif;
-  color: rgb(30, 30, 30);
-  /*color: #5d5c61;*/
-  /*color: #557a95;*/
+  color: #303030;
 }
 
 footer {
@@ -95,7 +97,7 @@ footer {
   bottom: 0;
   left: 0;
   color: #faebd7;
-  background-color: black;
+  background-color: #303030;
   text-align: center;
   font-style: italic;
 }
